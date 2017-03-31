@@ -22,40 +22,12 @@ Write a loop that makes seven calls to console.log to output the following trian
 #######
 */
 
-for(var i=1;i <=7;i++)
+
+
+var pound = "";
+for (var i = 0; i<7;i++)
 {
-    outputTrangle(i);
-}
-
-
-
-function outputTrangle(cnt)
-{
-switch (cnt){
- case 1:
-   console.log('#')
-   break;
- case 2:
-   console.log('##')
-   break;
- case 3:
-   console.log('###')
-   break;
- case 4:
-   console.log('####')
-   break;
- case 5:
-   console.log('#####')
-   break;
- case 6:
-   console.log('######')
-   break;
- case 7:
-   console.log('#######')
-   break;
-
-
-}
- 
+   pound = pound + "#";
+   console.log(pound);
 
 }
